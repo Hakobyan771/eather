@@ -408,7 +408,7 @@ body{
     text-align: center;
     margin-bottom: 57px;
 }
-.Bestsellers__itm{
+.Bestsellers__item{
     text-align: center;
     width: 233px;
     height: 430px;
@@ -418,7 +418,7 @@ body{
 .Bestsellers__list{
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 4px;
 }
 .Bestsellers__text{
     margin: 0 52px;
@@ -437,14 +437,51 @@ span:last-child{
 }
 
 .Bestsellers__img img{
-    width: 169px;
-    height: 169px;
-    flex-shrink: 0;
+    width: 100%;
 }
 
 .lesd--Bestsellers{
     width: 98px;
     margin: 0 73px;
+}
+
+.furniture{
+    padding-top: 54px;
+}
+
+.furniture__title{
+    color: #E9672B;
+    margin-bottom: 144px;
+    text-align: center;
+}
+
+.furniture__content{
+    display: flex;
+    color: #FFF;
+    background: #E9672B;
+    text-align: center;
+}
+
+.furniture__subject{
+    font-size: 36px;
+    line-height: 44px;
+    line-height: 44px;
+    margin: 24px 44px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.furniture__text{
+    margin-top: 61px;
+    text-align: center;   
+}
+
+.furniture__btn{
+    background-color: #FFF;
+    color: #000;
+    padding: 16px 40px;
+    border-radius: 88px;
+
 }
 
 
@@ -521,7 +558,7 @@ span:last-child{
         text-align: center;
         padding: 0 15px;
     }
-    .Bestsellers__inner{
+    .Bestsellers__list{
         display: flex;
         flex-wrap: wrap;
     }
