@@ -398,6 +398,70 @@ body{
     color: #E9672B;
 }
 
+.Bestsellers{
+    padding-top: 335px;
+}
+
+.Bestsellers__title{
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.Bestsellers__itm{
+    text-align: center;
+    width: 233px;
+    height: 430px;
+    flex-shrink: 0;
+    background: #fff;
+}
+.Bestsellers__list{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.Bestsellers__text{
+    margin: 0 52px;
+    text-align: center;
+    width: 63%;
+}
+.Bestsellers__text span{
+    color: #E9672B;
+}
+span:last-child{
+    color: #4F4F4F;
+}
+
+.Bestsellers__img{
+    margin: 40px 32px;
+}
+
+.Bestsellers__img img{
+    width: 169px;
+    height: 169px;
+    flex-shrink: 0;
+}
+
+.lesd--Bestsellers{
+    width: 98px;
+    margin: 0 73px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:1075px){
     .nav__list{
         gap: 18px;
@@ -457,6 +521,10 @@ body{
         text-align: center;
         padding: 0 15px;
     }
+    .Bestsellers__inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media(max-width:992px){
@@ -478,6 +546,12 @@ body{
         font-size: 35px;
         line-height: 1.5;
     }
+    .kepping__title{
+        font-size: 27px;
+    }
+    .kepping__text{
+        font-size: 20px;
+    }
 }
 
 @media(max-width:768px){
@@ -491,6 +565,12 @@ body{
     }
     .hero__content{
         width: 100%;
+    }
+    .kepping__title{
+        font-size: 18px;
+    }
+    .kepping__text{
+        font-size: 16px;
     }
 }
 
