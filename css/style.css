@@ -487,6 +487,10 @@ span:last-child{
 .furniture{
     padding-bottom: 143px;
 }
+
+.reviews{
+    padding-bottom: 176px;
+}
 .reviewes__title{
     text-align: center;
     font-size: 48px;
@@ -559,6 +563,31 @@ span:last-child{
     width: 100%;
     width: 396px;
 }
+
+.apartment{
+    background: #F6CFCA;
+}
+
+.apartmrnt__title{
+    font-size: 88px;
+    text-align: center;
+    line-height: 100px;
+    padding: 39px 0;
+    max-width: 913px;
+    margin: 0 auto;
+}
+
+.apartment__list{
+    display: flex;
+    gap: 95px;
+    align-items: center;
+    padding-bottom: 102px;
+}
+
+.apartment__img img{
+    width: 100%;
+}
+
 
 
 
@@ -645,6 +674,7 @@ span:last-child{
         display: flex;
         flex-wrap: wrap;
     }
+    
 }
 
 @media(max-width:992px){
@@ -715,6 +745,9 @@ span:last-child{
       }  
       .furniture__btn{
         font-size: 14px;
+      }
+      .reviewes__title{
+        font-size: 30px;
       }
  }
 
