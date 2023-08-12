@@ -198,6 +198,9 @@ body{
 .keeping{
     background: #fff;
 }
+.sale{
+    padding-bottom: 64px;
+}
 
 .kepping__title{
     font-size: 36px;
@@ -317,7 +320,6 @@ body{
 .business__inner {
     display: flex;
     align-items: center;
-    padding-top: 64px;
 }
 
 .left-bg{
@@ -501,6 +503,7 @@ span:last-child{
 .Reviews__list{
     display: flex;
     background-color: #FFF;
+    flex-wrap: wrap;
     gap: 32px;
 }
 .Reviews__item-content{
@@ -564,7 +567,7 @@ span:last-child{
     width: 396px;
 }
 
-.apartment{
+  .apartment{
     background: #F6CFCA;
 }
 
@@ -587,25 +590,72 @@ span:last-child{
 .apartment__img img{
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width:1170px){
-    .furniture__content{
-        flex-direction: column;
-     }
+.apartment__list {
 }
+
+.stress{
+    padding-top: 120px;
+} 
+
+.stress__inner{
+   text-align: center;
+}
+
+.stress__img{
+  margin-bottom: 41px;
+  width: 100%;
+}
+.stress__title{
+    font-size: 24px;
+    line-height: 32px;
+    width: 292px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.stress__btn{
+    border-radius: 88px;
+    background: #E9672B;
+    padding: 16px 40px;
+}
+
+
+
+
+
+
+
+@media(max-width:1280px){
+    .Reviews__item {
+        width: 100%;
+        text-align: center;
+    } 
+
+    .Reviews__item-content {
+        width: 100%;
+    } 
+    .apartmrnt__title{
+        font-size: 60px;
+    }
+    .furniture__content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    } 
+    .furniture__btn {
+        font-size: 15px;
+    }
+    .furniture__subject{
+        font-size: 20px;
+    }
+  
+}
+
+
+@media(max-width:1100px){
+    
+}
+
+
+
 
 
 
@@ -674,6 +724,12 @@ span:last-child{
         display: flex;
         flex-wrap: wrap;
     }
+    .apartmrnt__title{
+        font-size: 40px;
+    }
+   
+    
+    
     
 }
 
@@ -707,16 +763,12 @@ span:last-child{
         width: 100%;
         align-items: center;
     }
-
-    .Reviews__item {
-        width: 100%;
-        text-align: center;
-    }
-
-    .Reviews__item-content {
-        width: 100%;
-    }
+  
+   
 }
+
+  
+
 
 @media(max-width:768px){
     .container-fluid-right{
@@ -736,6 +788,9 @@ span:last-child{
     .kepping__text{
         font-size: 16px;
     }
+    
+    
+    
 
 }
  @media(max-width:450px){
