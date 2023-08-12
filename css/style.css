@@ -33,6 +33,11 @@ body{
     color:#000;
 }
 
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .container{
     max-width: 1120px;
     padding: 0 15px;
@@ -457,6 +462,11 @@ span:last-child{
     text-align: center;
 }
 
+
+.furniture__img {
+    max-width: 100%;
+}
+
 .furniture__content{
     display: flex;
     color: #FFF;
@@ -582,7 +592,7 @@ span:last-child{
 
 .apartment__list{
     display: flex;
-    gap: 95px;
+    justify-content: space-evenly;
     align-items: center;
     padding-bottom: 102px;
 }
@@ -595,6 +605,7 @@ span:last-child{
 
 .stress{
     padding-top: 120px;
+    padding-bottom: 120px;
 } 
 
 .stress__inner{
@@ -611,12 +622,48 @@ span:last-child{
     width: 292px;
     margin: 0 auto;
     margin-bottom: 40px;
+
 }
 .stress__btn{
     border-radius: 88px;
     background: #E9672B;
     padding: 16px 40px;
 }
+
+.footer__title{
+    margin-bottom: 24px;
+}
+.footer__item{
+    margin-bottom: 8px;
+}
+
+.footer__content{
+    display: flex;
+    gap: 81px;
+    flex-wrap: wrap;
+}
+.fooater__link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.footer{
+    background: #F3F0EC;
+    padding-top: 82px;
+    padding-bottom: 80px;
+}
+
+.footer__input{
+    border: 0;
+    border-bottom: 3px solid #000;
+    background: none;
+}
+
+.footer__logo{
+    width: 51px;
+    margin-left: auto;
+}
+
 
 
 
@@ -650,9 +697,6 @@ span:last-child{
 }
 
 
-@media(max-width:1100px){
-    
-}
 
 
 
@@ -728,14 +772,34 @@ span:last-child{
         font-size: 40px;
     }
    
-    
+    .apartment__list {
+        flex-direction: column;
+    }
     
     
 }
 
 @media(max-width:992px){
+    .header{
+        position: relative;
+    }
     .nav__list{
         display: none;
+    }
+    .nav__list.menu--open{
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: #FBF8F5;
+        width: 100%;
+        text-align: center;
+    }
+    .nav__item--logo{
+        display: none;
+    }
+    .nav__item {
+        margin: 10px 0;
     }
     .burger-btn{
         display: flex;
@@ -789,7 +853,13 @@ span:last-child{
         font-size: 16px;
     }
     
-    
+    .footer {
+        text-align: center;
+    }
+
+    .footer__item {
+        width: 100%;
+    }
     
 
 }
